@@ -1,0 +1,18 @@
+﻿<Window x:Class="RegistroDetalles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroDetalles"
+        mc:Ignorable="d"
+        Title="Registro de Detalle" Height="129" Width="224">
+    <Grid>
+        <StackPanel Margin="0,0,4,0">
+            <Menu>
+                <MenuItem Header="Registro">
+                    <MenuItem x:Name="RegistroRoles" Header="Registro de Roles" Click="RegistroRoles_Click"/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+    </Grid>
+</Window>
